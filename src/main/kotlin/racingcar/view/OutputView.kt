@@ -8,11 +8,12 @@ class OutputView {
     }
 
     fun printWinner(winners: List<String>) {
-        val finalWinner = winners.joinToString( ", " )
+        val finalWinner = winners.joinToString( JOIN_SEPARATOR )
         println("최종 우승자 : $finalWinner")
     }
 
     companion object {
         const val DISTANCE_SYMBOL = "-"
+        const val JOIN_SEPARATOR = ", "
     }
 }
