@@ -1,4 +1,4 @@
-package racingcar
+package racingcar.view
 
 class OutputView {
     fun printWinner(winners: List<String>) {
